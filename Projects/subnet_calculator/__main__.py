@@ -89,4 +89,3 @@ for i in range(amount_of_subnets):
     subnet_ip = ip_addition(network_base, interval * i)
     subnetting(subnet_ip, subnet_mask, host_count, file_name)
 print("Tables are ready in {}/{}.txt".format(working_dir, file_name))
-

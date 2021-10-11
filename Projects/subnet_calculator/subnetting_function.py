@@ -38,7 +38,3 @@ def subnetting(ipaddr, mask, host_count, file_name):
     file.write("| Broadcast address                         | {0: <18} |\n".format(bc))
     file.write("\n")
     file.close()
-
-
-
-

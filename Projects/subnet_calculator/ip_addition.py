@@ -22,5 +22,3 @@ def ip_addition(ip, addition):
     ip_bin = bin(ip_int)[2:].zfill(32)
     new_ip = bin_to_ip(ip_bin)     
     return new_ip
-
-

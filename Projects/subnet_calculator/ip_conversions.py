@@ -66,4 +66,3 @@ def slash_mask_to_ip(mask):
         mask_bin += "0"
     mask = bin_to_ip(mask_bin)
     return mask
-
