@@ -10,4 +10,3 @@ def get_bs4_page(url, headers=True):
     r = requests.get(url, headers=headers)
     page = BeautifulSoup(r.content, 'lxml')
     return page
-
